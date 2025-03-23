@@ -85,7 +85,7 @@ function flipcard() {
   cardschosecids.push(cardid);
   console.log(cardschosen);
   if (cardschosen.length === 2) {
-    setTimeout(checkforamatch, 400);
+    setTimeout(checkforamatch, 500);
   }
 }
 function checkforamatch() {
