@@ -1,3 +1,33 @@
-img{
-    height: 60px;
+img {
+    height: 80px; 
+    width: 80px; 
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+img:hover {
+    transform: scale(1.1); 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4eded; 
+    color: white; 
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    border: 3px solid rgb(204, 197, 222);
+    padding: 20px;
+    background-color: #f4f4f4; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(106, 66, 217, 0.2);
+}
+#p{
+ color: purple;
 }
